@@ -57,3 +57,4 @@ from sklearn.metrics import mean_squared_error,mean_absolute_error
 new_data=[[239,323]]
 new_data=scaler.transform(new_data)
 print(model.predict(new_data))
+print("ending for the day")
